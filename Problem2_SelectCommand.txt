@@ -1,0 +1,15 @@
+
+SQL
+	SELECT * FROM USERS;
+
+Redis 
+	GET USERS
+	or
+	LRANGE Users 0 -1
+
+Neo4J
+	MATCH (node:USERS)
+	RETURN node
+
+Cassandra
+	SELECT * FROM USERS LIMIT 10;
